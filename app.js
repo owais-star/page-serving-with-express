@@ -5,8 +5,7 @@ const path = require("path");
 const app = express();
 
 // creating a route for page serving
-app.use("/", express.static(path.join(__dirname, 'page-serving/build')));
-
+app.use("/", express.static(path.join(__dirname, 'web/build')));
 app.get("/profile", (req, res)=>{
     res.send("welcome to your profile")
 });
