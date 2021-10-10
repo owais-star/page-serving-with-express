@@ -23,7 +23,7 @@ app.delete("/profile", (req, res)=>{
     res.send("Are you sure you want to delete your profile")
 });
 
-// app.get("/**", (req, res, next) => {
+// app.get("/", (req, res, next) => {
 //     res.sendFile(path.join(__dirname, "./page-serving/public/index.html"))
 // })
 
